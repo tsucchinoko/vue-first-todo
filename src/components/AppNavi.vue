@@ -21,6 +21,7 @@ const isToggle = ref(false);
 
 const goToUrl = (url?: string) => {
   if (url != undefined) {
+    // 遷移
     router.push(url);
   }
 };
@@ -57,6 +58,7 @@ const goToUrl = (url?: string) => {
         <main>
           <div class="container-fluid px-4">
             <!-- コンテンツをrouter-viewに変更 -->
+            <!-- router-view = <a>タグとしてレンダリング -->
             <router-view />
           </div>
         </main>

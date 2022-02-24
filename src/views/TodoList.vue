@@ -44,7 +44,7 @@ const deleteTask = (id: number) => {
 </script>
 
 <template>
-  <h1 class="mt-4">Todo List</h1>
+  <h1 class="mt-4">Todo List!!</h1>
   <div class="row">
     <div class="col-xl-6 col-md-6">
       <TaskAdd @add="(newTaskTitle) => addTask(newTaskTitle)"></TaskAdd>

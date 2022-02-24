@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import AppHome from "../views/AppHome.vue";
 import TodoList from "../views/TodoList.vue";
+import AboutPage from "../views/AboutPage.vue"
 import NotFound from "../components/NotFound.vue";
+
 
 const routers: Array<RouteRecordRaw> = [
   {
@@ -11,6 +13,10 @@ const routers: Array<RouteRecordRaw> = [
   {
     path: "/todo",
     component: TodoList,
+  },
+  {
+    path: "/about",
+    component: AboutPage,
   },
   {
     path: "/:pathMatch(.*)*",

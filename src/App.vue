@@ -5,7 +5,7 @@ import AppNavi, { MenuItem } from "./components/AppNavi.vue";
 const menuItems: MenuItem[] = [
   {
     type: "heading",
-    title: "Main",
+    title: "[Main]",
   },
   {
     type: "menu",
@@ -13,9 +13,16 @@ const menuItems: MenuItem[] = [
     icon: "fa-list",
     url: "/todo",
   },
+  {
+    type: "menu",
+    title: "About",
+    icon: "fa-list",
+    url: "/about",
+  },
 ];
 </script>
 
 <template>
+  <!-- コンポーネントの利用、タグみたいに使える -->
   <AppNavi title="Todo App" :menu-items="menuItems"></AppNavi>
 </template>
