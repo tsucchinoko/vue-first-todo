@@ -19,6 +19,6 @@ const addTask = () => {
 <template>
   <form class="form-floating">
     <input v-model="newTaskTitle" type="text" class="form-control mt-4" placeholder="Add Task" @keydown.enter.prevent="addTask()" />
-    <label>Add Task</label>
+    <label>タスクを追加</label>
   </form>
 </template>

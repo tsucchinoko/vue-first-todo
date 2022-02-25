@@ -13,9 +13,9 @@ const emit = defineEmits<{
   <table class="table table-striped align-middle mt-4">
     <thead>
       <tr>
-        <th scope="col" width="50">#</th>
-        <th scope="col" width="600">Task</th>
-        <th scope="col">Action</th>
+        <th scope="col" width="50"></th>
+        <th scope="col" width="600">タスク</th>
+        <th scope="col">削除</th>
       </tr>
     </thead>
     <tbody>
